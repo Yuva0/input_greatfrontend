@@ -16,27 +16,27 @@ function App() {
         <Input
           label="Email"
           helperText="This is a hint text"
-          placeholder="name@example.com"
+          placeholder="name@email.com"
           trailingIcon={<FontAwesomeIcon icon={faCircleQuestion} />}
         />
         <Input
           label="Email"
           helperText="This is a hint text"
-          placeholder="name@example.com"
+          placeholder="name@email.com"
           leadingIcon={<FontAwesomeIcon icon={faEnvelope} />}
           trailingIcon={<FontAwesomeIcon icon={faCircleQuestion} />}
         />
         <Input
           label="Email"
           helperText="This is a hint text"
-          placeholder="name@example.com"
+          placeholder="name@email.com"
           trailingIcon={<FontAwesomeIcon icon={faCircleQuestion} />}
         />
         <Input
           label="Email"
           hasError
           errorText="This is an error message."
-          placeholder="name@example.com"
+          placeholder="name@email.com"
           trailingIcon={<FontAwesomeIcon icon={faCircleQuestion} />}
         />
       </div>

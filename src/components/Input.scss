@@ -1,0 +1,51 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.input-label {
+  color: #404040;
+  cursor: text;
+}
+
+.input-box {
+  border: 1px solid #e6e6e6;
+  background-color: #fafafa;
+  cursor: text;
+  border-radius: 4px;
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px;
+
+  &.input-box-focused {
+    box-shadow: 0 0px 4px 0px rgba(0, 123, 255, 0.2);
+  }
+
+  input {
+    background-color: #fafafa;
+    border: 0;
+    width: 100%;
+    color: #171717;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.input-trailing-icon {
+  color: #a3a3a3;
+}
+
+.input-helper-text {
+  color: #737373;
+}
+
+.input-error-text {
+  color: #dc2626;
+}
